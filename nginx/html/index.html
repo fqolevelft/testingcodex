@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard Login</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <h2>Super Admin</h2>
+    <form action="/api/superadmin/login" method="post">
+        <input type="text" name="username" placeholder="username" />
+        <input type="password" name="password" placeholder="password" />
+        <button type="submit">Login</button>
+    </form>
+    <h2>Admin</h2>
+    <form action="/api/admin/login" method="post">
+        <input type="text" name="username" placeholder="username" />
+        <input type="password" name="password" placeholder="password" />
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
